@@ -1,9 +1,8 @@
 /**
  * Created by happia.zhang on 2017/8/10.
  */
-import {React} from 'ss-react';
-import {Form, Input, Button, Checkbox} from 'antd';
-import {Redirect} from 'react-router-dom';
+import React from 'react';
+import {Form, Input, Button, Checkbox, Icon} from 'antd';
 import {isNil} from '../utilities/is';
 import '../themes/Login.less';
 
@@ -11,7 +10,6 @@ const {Component} = React;
 const FormItem = Form.Item;
 
 class Login extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
