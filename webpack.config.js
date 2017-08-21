@@ -1,6 +1,5 @@
 /**
- * Copyright @2016-present, Sumscope, Inc.
- * All rights reserved.
+ * Created by happia.zhang on 2017/8/10.
  */
 
 const webpack = require('webpack');
