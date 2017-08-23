@@ -10,7 +10,7 @@
   },
   "betterScripts": {
     "build": {
-      "command": "webpack",
+      "command": "webpack-dev-server",
       "env": {
         "NODE_ENV": "production"
       }
