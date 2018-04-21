@@ -3,8 +3,8 @@
  */
 import React from 'react';
 import {Form, Input, Button, Checkbox, Icon} from 'antd';
-import {isNil} from '../utilities/is';
-import '../themes/Login.less';
+import {isNil} from '../utils/is';
+import './Login.less';
 
 const {Component} = React;
 const FormItem = Form.Item;

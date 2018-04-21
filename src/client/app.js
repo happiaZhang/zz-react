@@ -1,4 +1,4 @@
-import App from './utilities/createApp';
+import App from './utils/createApp';
 import models from './models';
 import routes from './routes';
 

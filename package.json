@@ -34,6 +34,7 @@
   "dependencies": {
     "antd": "^2.12.6",
     "babel-polyfill": "^6.23.0",
+    "rc-notification": "^3.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.6",

@@ -4,11 +4,13 @@
 import {BrowserRouter, Route} from 'react-router-dom';
 import React from 'react';
 import Login from './containers/Login';
+import Message from './containers/Message';
 
 const Routes = (
   <BrowserRouter>
     <div>
-      <Route path='/' component={Login} />
+      <Route exact path='/' component={Login} />
+      <Route exact path='/message' component={Message} />
     </div>
   </BrowserRouter>
 );
