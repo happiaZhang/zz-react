@@ -78,12 +78,13 @@ const config = {
           'css-loader',
           {
             loader: require.resolve('less-loader'),
+            /*
             options: {
               modifyVars: theme,
               plugins: [
                 new CleanCSSPlugin({advanced: true})
               ]
-            }
+            } */
           }
         ])
       },

@@ -47,9 +47,7 @@ class App {
     const rootElement = document.getElementById(node);
     ReactDOM.render(
       <Provider store={this.store}>
-        <div style={{height: '100%'}}>
-          {this.routes}
-        </div>
+        {this.routes}
       </Provider>, rootElement);
   }
 }

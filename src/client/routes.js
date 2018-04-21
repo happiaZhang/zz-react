@@ -3,15 +3,11 @@
  */
 import {BrowserRouter, Route} from 'react-router-dom';
 import React from 'react';
-import Login from './containers/Login';
-import Message from './containers/Message';
+import Root from './containers/Root';
 
 const Routes = (
   <BrowserRouter>
-    <div>
-      <Route exact path='/' component={Login} />
-      <Route exact path='/message' component={Message} />
-    </div>
+    <Route path='/' component={Root} />
   </BrowserRouter>
 );
 
